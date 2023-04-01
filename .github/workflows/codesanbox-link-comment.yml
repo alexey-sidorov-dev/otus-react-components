@@ -1,4 +1,4 @@
-name: Add CodeSandbox link
+name: CodeSandbox Link
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
 jobs:
   add-codesandbox-link-comment:
     name: Add CodeSandbox link comment
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: mshick/add-pr-comment@v1
         env:

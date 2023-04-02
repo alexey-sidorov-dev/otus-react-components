@@ -7,3 +7,5 @@ build
 dist
 out
 coverage
+storybook-static
+build-storybook.log

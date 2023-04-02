@@ -1,4 +1,4 @@
-import React, { FC, SetStateAction, useState } from "react";
+import { FC, SetStateAction, useState } from "react";
 import {
   AccordionProps,
   BreakerProps,

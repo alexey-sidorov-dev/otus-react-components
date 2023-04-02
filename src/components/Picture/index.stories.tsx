@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Picture } from ".";
-import { text } from "../../constants";
+import { x2text as text } from "../../constants";
 
 export default {
   title: "Example/Picture",

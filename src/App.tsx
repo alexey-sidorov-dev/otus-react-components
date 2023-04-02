@@ -14,7 +14,7 @@ import { Columns } from "./components/Columns";
 import { Header } from "./components/Header";
 import { Paragraph } from "./components/Paragraph";
 import { Picture } from "./components/Picture";
-import { text, header } from "./constants";
+import { text, x2text, header } from "./constants";
 
 export const App: FC = () => {
   const [componentName, setComponentName] = useState("-");
@@ -108,13 +108,13 @@ export const App: FC = () => {
         {componentName === "Paragraph" && (
           <Paragraph
             style={componentParameter as ParagraphProps["style"]}
-            text={text}
+            text={x2text}
           />
         )}
         {componentName === "Breaker" && (
           <Breaker
             number={componentParameter as unknown as BreakerProps["number"]}
-            text={text}
+            text={x2text}
           />
         )}
         {componentName === "Accordion" && (
@@ -124,13 +124,13 @@ export const App: FC = () => {
                 componentParameter.toLowerCase()
               ) as unknown as AccordionProps["visible"]
             }
-            text={text}
+            text={x2text}
           />
         )}
         {componentName === "Picture" && (
           <Picture
             float={componentParameter as unknown as PictureProps["float"]}
-            text={text}
+            text={x2text}
           />
         )}
         {componentName === "Columns" && (

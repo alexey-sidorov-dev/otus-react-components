@@ -1,10 +1,17 @@
-export default () => (
-  <div className="paragraph" data-testid="paragraph">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et quod
-      suscipit possimus ipsum cupiditate, sequi quibusdam a unde est inventore
-      minima recusandae adipisci tempore aut maiores, dolor distinctio
-      voluptates.
-    </p>
-  </div>
-);
+import { FC } from "react";
+import { ParagraphProps } from "../../types";
+
+export const Paragraph: FC<ParagraphProps> = ({ style: fontStyle, text }) =>
+  fontStyle === "blockquote" ? (
+    <blockquote
+      className="paragraph"
+      data-testid="blockquote"
+      style={{ display: "inline-block", backgroundColor: "ghostwhite" }}
+    >
+      <p style={{ fontStyle, margin: "0 1rem" }}>{text}</p>
+    </blockquote>
+  ) : (
+    <div className="paragraph" data-testid="paragraph">
+      <p style={{ fontStyle, margin: "0 1rem" }}>{text}</p>
+    </div>
+  );

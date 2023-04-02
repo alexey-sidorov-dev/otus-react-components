@@ -1,9 +1,17 @@
-export default () => (
-  <div className="breaker" data-testid="breaker">
-    <hr />
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iusto
-    delectus consequatur esse reprehenderit cum debitis, quibusdam cumque
-    repudiandae soluta. Temporibus deserunt sed beatae recusandae. Totam nam
-    similique quaerat sunt?
-  </div>
-);
+import { FC } from "react";
+import { BreakerProps } from "../../types";
+
+export const Breaker: FC<BreakerProps> = ({ number, text }) => {
+  const hrs = [];
+  for (let i = 0; i < number; i++) {
+    hrs.push(<hr key={i} />);
+  }
+  return (
+    <>
+      <div className="breaker" data-testid="breaker">
+        {hrs}
+        {text}
+      </div>
+    </>
+  );
+};

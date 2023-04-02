@@ -1,7 +1,7 @@
 {
   "include": ["./src/**/*", "./test/**/*"],
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2016",
     "jsx": "react-jsx",
     "module": "CommonJS",
     "outDir": "./out",

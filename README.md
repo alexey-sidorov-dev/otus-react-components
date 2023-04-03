@@ -4,7 +4,7 @@
 
 ---
 
-Разработать приложение для отображения глупых компонентов при помощи умного.
+Разработать приложение для отображения глупых компонентов при помощи умного компонента.
 
 [![Actions Status](https://github.com/alexey-sidorov-dev/otus-react-components/workflows/PR%20Sanity%20Check/badge.svg)](https://github.com/alexey-sidorov-dev/otus-react-components/actions)
 [![Actions Status](https://github.com/alexey-sidorov-dev/otus-react-components/workflows/CodeSandbox%20Link/badge.svg)](https://github.com/alexey-sidorov-dev/otus-react-components/actions)

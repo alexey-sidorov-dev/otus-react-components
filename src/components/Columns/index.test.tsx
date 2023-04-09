@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Columns } from ".";
-import { text } from "../../constants";
+import { text } from "../../helpers/constants";
 
 describe("Columns", () => {
   it("should render columns", () => {

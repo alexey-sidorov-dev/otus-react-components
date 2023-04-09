@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ColumnsProps } from "../../types";
+import { ColumnsProps } from "../../types/types";
 
 export const Columns: FC<ColumnsProps> = ({ number, text }) => {
   const columns = [];

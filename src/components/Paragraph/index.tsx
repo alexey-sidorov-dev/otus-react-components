@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ParagraphProps } from "../../types";
+import { ParagraphProps } from "../../types/types";
 
 export const Paragraph: FC<ParagraphProps> = ({ style: fontStyle, text }) =>
   fontStyle === "blockquote" ? (

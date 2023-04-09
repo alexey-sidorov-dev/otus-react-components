@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { PictureProps } from "../../types";
+import { PictureProps } from "../../types/types";
 import picture from "../../../assets/images/fine.png";
 
 export const Picture: FC<PictureProps> = ({ float: floatProp, text }) => (

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Breaker } from ".";
-import { text } from "../../constants";
+import { text } from "../../helpers/constants";
 
 describe("Breake", () => {
   it("should render breaker", () => {

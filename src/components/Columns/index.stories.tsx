@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Columns } from ".";
-import { text } from "../../constants";
+import { text } from "../../helpers/constants";
 
 export default {
   title: "Example/Columns",

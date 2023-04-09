@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Accordion } from ".";
-import { text } from "../../constants";
+import { text } from "../../helpers/constants";
 
 describe("Accordion", () => {
   it("should render accordion", () => {

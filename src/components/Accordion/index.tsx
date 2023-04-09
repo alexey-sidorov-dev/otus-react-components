@@ -1,6 +1,6 @@
 import { useState, FC } from "react";
-import { header } from "../../constants";
-import { AccordionProps } from "../../types";
+import { header } from "../../helpers/constants";
+import { AccordionProps } from "../../types/types";
 
 export const Accordion: FC<AccordionProps> = ({ text, visible }) => {
   const [collapsed, setCollapsed] = useState(!visible);

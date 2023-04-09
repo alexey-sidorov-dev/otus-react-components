@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Paragraph } from ".";
-import { text } from "../../constants";
+import { text } from "../../helpers/constants";
 
 describe("Paragraph", () => {
   it("should render normal paragraph", () => {

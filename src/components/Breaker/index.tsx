@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { BreakerProps } from "../../types";
+import { BreakerProps } from "../../types/types";
 
 export const Breaker: FC<BreakerProps> = ({ number, text }) => {
   const hrs = [];

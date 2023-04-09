@@ -1,0 +1,11 @@
+.idea
+.vscode
+.eslintcache
+.stylelintcache
+.env
+build
+dist
+out
+coverage
+storybook-static
+build-storybook.log

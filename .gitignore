@@ -1,0 +1,14 @@
+.idea
+.vscode
+.eslintcache
+.stylelintcache
+.env
+!.storybook
+!.loki
+node_modules
+build
+dist
+out
+coverage
+storybook-static
+build-storybook.log
